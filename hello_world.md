@@ -4,7 +4,7 @@
 
 让我们打开浏览器-这里推荐使用的是Chrome，google公司的。
 
-好，我们先学个单词：
+好，我们先学两个单词：
 
 chrome [kroʊm] n.谷歌浏览器； 铬
 再学一个汉字：
@@ -51,7 +51,10 @@ context.fillText('Hello World!', 10, 10);
 
 ![](Screen Shot 2015-08-08 at 8.02.47 PM.png)
 
+我们这里学习三个单词：
+canvas [ˈkænvəs] n. 画布
+context  [ˈkɑ:ntekst] n. 上下文； 语境
 
-
+context是个很难理解的单词，这里可以理解为：画境-绘画的环境。
 
 
