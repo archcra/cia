@@ -56,5 +56,3 @@ context.fillText('Hello World!', 10, 64);
 
 
 
-
-
