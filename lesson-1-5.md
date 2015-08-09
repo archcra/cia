@@ -8,3 +8,17 @@ oh，对了，还没打开：
 这就是程序比静态图片要好地方之一：它是可交互的。就是说，我们可以控制这个光剑是开还是关。
 
 http://jsfiddle.net/archcra/agtdu6ws/2/
+
+当然还有其他人的：
+
+
+![](Screen Shot 2015-08-09 at 1.33.34 PM.png)
+
+![](Screen Shot 2015-08-09 at 1.33.47 PM.png)
+
+这个还可以能量更高些：
+![](Screen Shot 2015-08-09 at 1.34.05 PM.png)
+
+
+http://jsfiddle.net/archcra/x5jrLa7x/embedded/result/
+
