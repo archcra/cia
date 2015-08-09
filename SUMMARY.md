@@ -22,7 +22,7 @@
    * [第二课 移动](lesson-4-2.md)
    * [第三课 缩放](lesson-4-3.md)
    * [第四课 镜像](lesson-4-4.md)
+* 动画
 * [附录](lesson_1_3.md)
    * [参考资源](references.md)
-* 动画
 
