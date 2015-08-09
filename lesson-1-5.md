@@ -22,3 +22,14 @@ http://jsfiddle.net/archcra/agtdu6ws/2/
 
 http://jsfiddle.net/archcra/x5jrLa7x/embedded/result/
 
+
+游戏？当然。下面是个比较简单的射击游戏：
+
+![](Screen Shot 2015-08-09 at 1.42.45 PM.png)
+
+
+游戏的源码：http://jsfiddle.net/archcra/Lvkqj4up/
+
+这个游戏的作者有很详细的说明：http://jlongster.com/Making-Sprite-based-Games-with-Canvas
+
+
