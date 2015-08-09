@@ -37,7 +37,7 @@ Javascript:
 var canvas = document.getElementById("myCanvas");
 var context = canvas.getContext("2d");
 
-// 开始向画面上画
+// 开始向画布上画
 context.font = '32pt Arial';
 context.fillStyle = 'GreenYellow';
 context.fillText('Hello World!', 10, 64);
