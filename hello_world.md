@@ -51,7 +51,7 @@ context.fillText('Hello World!', 10, 10);
 
 ![](Screen Shot 2015-08-08 at 8.02.47 PM.png)
 
-我们这里学习三个单词：
+我们这里学习两个单词：
 canvas [ˈkænvəs] n. 画布
 context  [ˈkɑ:ntekst] n. 上下文； 语境
 
