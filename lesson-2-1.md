@@ -24,6 +24,8 @@ context.lineWidth = 16;
 ```
 context.strokeStyle = 'GreenYellow';
 ```
+效果是这样；
+![](Screen Shot 2015-08-09 at 12.22.46 PM.png)
 
 
 
