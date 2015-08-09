@@ -46,7 +46,6 @@ context.fillText('Hello World!', 10, 64);
 
 当然，我们看到的它执行的效果，和以前没有不同：
 
-![](Screen Shot 2015-08-09 at 11.53.22 AM.png)
 
 
 
