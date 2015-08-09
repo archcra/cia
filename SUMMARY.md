@@ -6,6 +6,7 @@
    * [第二课 位置](lesson-1-2.md)
    * [第三课 颜色](lesson-1-3.md)
    * [第四课 总结](lesson-1-4.md)
+   * 第五课 画布能画出什么？
 * [第二章 基本形状](chapter2.md)
    * [第一课 直线](lesson-2-1.md)
 * [附录](lesson_1_3.md)
