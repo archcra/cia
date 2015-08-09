@@ -35,3 +35,17 @@ https://en.wikipedia.org/wiki/Web_colors
 http://www.w3.org/TR/SVG/types.html#ColorKeywords
 http://www.w3.org/TR/css3-color/
 
+
+从图中的Name或HTML name列中取一个名字，就可以设置为相应的颜色。如我们取图上被选择copy的GreenYello，代码是这个样子：
+```
+context.fillStyle = 'GreenYellow';
+context.fillText('Hello World!', 10, 64);
+```
+
+结果就是下图的样子：
+
+![](Screen Shot 2015-08-09 at 11.30.41 AM.png)
+
+
+好了，关于颜色我们先讲到这里，我们开始画一些形状。
+
