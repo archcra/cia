@@ -17,4 +17,5 @@
 * [附录](lesson_1_3.md)
    * [参考资源](references.md)
 * 变形
+* 动画
 
