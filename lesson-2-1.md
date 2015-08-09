@@ -20,5 +20,17 @@ context.lineWidth = 16;
 ![](Screen Shot 2015-08-09 at 12.20.29 PM.png)
 
 
-线的颜色和我们说过的文字的颜色道理是一样的。在最后一句前加上：
+画直线的颜色和我们说过的文字的颜色道理是一样的，但是有区别。在最后一句前加上：
+```
+context.strokeStyle = 'GreenYellow';
+```
+
+
+
+注意是strokeStyle，不是fillStyle。我们这里学习三个单词：
+style  [staɪl] n.样式
+fill  [fɪl] vt.& vi.（使）充满
+stroke [stroʊk] n. (铅笔、刷子的)一笔，一挥，笔画
+
+
 
