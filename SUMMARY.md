@@ -9,6 +9,7 @@
    * [第五课 画布能画出什么？](lesson-1-5.md)
 * [第二章 基本形状](chapter2.md)
    * [第一课 直线](lesson-2-1.md)
+   * 第二课 矩形
 * [附录](lesson_1_3.md)
    * [参考资源](references.md)
 
