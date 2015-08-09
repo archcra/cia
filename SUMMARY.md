@@ -13,4 +13,5 @@
    * [第三课 圆](lesson-2-3.md)
 * [附录](lesson_1_3.md)
    * [参考资源](references.md)
+* 第三章 图片
 
