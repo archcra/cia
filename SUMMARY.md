@@ -11,6 +11,7 @@
    * [第一课 直线](lesson-2-1.md)
    * [第二课 矩形](lesson-2-2.md)
    * [第三课 圆](lesson-2-3.md)
+   * 第一课 画图片
 * 第三章 图片
 * [附录](lesson_1_3.md)
    * [参考资源](references.md)
