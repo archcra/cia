@@ -38,4 +38,6 @@ context.fillRect(50, 50, 100, 100);
 
 
 
+以上代码可以在这里演示：
+http://jsfiddle.net/archcra/qaaox7yL/
 
