@@ -12,4 +12,40 @@ sin是简写，全写是sine [saɪn] n. 正弦函数，三角函数之一
 一个角，如上图中的 (读作alpha)的sin值，就是它的对边长度除以斜边长度。即a/h。
 
 
+下面我们给出往返运运的示例，修改animate 函数即可：
+
+
+代码如下：
+```
+ function animate(myRectangle, canvas, context, startTime) {
+     // update
+     var time = (new Date()).getTime() - startTime;
+     var amplitude = 150;
+
+     // in ms
+     var period = 2000;
+     var centerX = canvas.width / 2 - myRectangle.width / 2;
+     var nextX = amplitude * Math.sin(time * 2 * Math.PI / period) + centerX;
+     myRectangle.x = nextX;
+
+     // clear
+     context.clearRect(0, 0, canvas.width, canvas.height);
+
+     // draw
+     drawRectangle(myRectangle, context);
+
+     // request new frame
+     requestAnimFrame(function () {
+         animate(myRectangle, canvas, context, startTime);
+     });
+ }
+```
+
+
+效果可参见：http://jsfiddle.net/archcra/cko20q88/12/
+
+
+
+
+
 参考：https://en.wikipedia.org/wiki/Sine
