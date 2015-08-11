@@ -85,7 +85,30 @@ img.onload = function () {
 ```
 ![](Screen Shot 2015-08-11 at 5.03.58 PM.png)
 
-这次图也大了，也全了，但也清楚。
+这次图大了，也全了，也清楚。
+
+我们可以将图片的一部份画到画布上：
+将drawImage修改一下：
+```
+    context.drawImage(img, 0, 512, 512, 512, 0, 0, 512, 512);
+```
+![](Screen Shot 2015-08-11 at 5.15.22 PM.png)
+我们发现，这次drawImage这个函数的参数变多了-多了4个；前4个数字参数是指原来图片的位置；后4个数字参数是指画到画布上的位置；它的意思翻译成文字，可以是这样：
+把原来这张图从最左面，上面从第512像素，取512*512宽高的区域，画到画布上；画到画布的位置是从左起第0个像素，上起第0个像素，宽512像素，高512像素。有些绕口？从第0个像素？
+数字的
+
+| 0:0 | 1:0 | 2:0 | 3:0 | 4:0 | 5:0 |
+| -- | -- | -- | -- | -- | -- |
+| Cardinal | one | two | three | four | five |
+| 0:3 | 1:3 | 2:3 | 3:3 | 4:3 | 5:3 |
+| Ordinal | first | second | third | 4:4 | 5:4 |
+| 0:2 | 1:2 | 2:2 | 3:2 | 4:2 | 5:2 |
 
 
+
+Cardinal versus ordinal numbers
+Cardinal	one	two	three	four
+1	2	3	4
+Ordinal	first	second	third	fourth
+1st	2nd	3rd	4th
 
