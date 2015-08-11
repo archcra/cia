@@ -56,6 +56,49 @@ img.onload = function () {
 http://jsfiddle.net/archcra/be7q3hdc/11/
 
 循环是程序中常使用的一种方法，就是把事情重复地做；
+以我们画线的例子来说：
+
+```
+// 准备一块二维世界的画布
+var canvas = document.getElementById("myCanvas");
+var context = canvas.getContext("2d");
+
+// 开始向画布上画
+context.beginPath();
+context.moveTo(0, 0);
+context.lineTo(256, 256);
+context.stroke();
+```
+
+上面的代码是画出了一条线：
+![](Screen Shot 2015-08-11 at 6.58.23 PM.png)
+
+我们现在把起始点变一下，然后让它重复画10次，用循环就可以样写：
+```
+// 准备一块二维世界的画布
+var canvas = document.getElementById("myCanvas");
+var context = canvas.getContext("2d");
+
+// 开始向画布上画
+context.beginPath();
+for (var i = 0; i < 10; i = i + 1) {
+    context.moveTo(i * 10, 0);
+    context.lineTo(256, 256);
+}
+context.stroke();
+```
+即每次我们将线的起点的左边距+10个像素。为什么是加10个像素呢？因为在循环里面，变量（什么是变量？）i的值会每次+1，即这句：
+```
+for (var i = 0; i < 10; i = i + 1) {
+```
+的意思是：让一个变量（会变的东西）的最开始值是0，然后让它执行{}中的内容；每执行一次，让i的值更新，这里是+1。即第一次循环时，{}中使用i时，i的值是0；第二次时，i是1，...
+但这个循环是有上限的，即需要结束的；这里的限制时i要小于10;注意i是自然数，所以在这里，i的最大值是9；
+由于语言的历史，i++ 和i = i +1 有相同的效果，所以一般习惯上将i = i + 1 用i++来表示；
+
+i += 4 就是 i = i + 4的意思；就是说，每次循环，i的值涨4。
+
+下面是循环画线后的结果：
+![](Screen Shot 2015-08-11 at 7.06.03 PM.png)
 
 
 
