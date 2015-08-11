@@ -21,7 +21,7 @@
    * [第二课 加速度](lesson-4-2.md)
    * [第三课 缩放](lesson-4-3.md)
    * [第四课 镜像](lesson-4-4.md)
-   * 第五课 动画的原理
+   * [第五课 动画的原理](lesson-4-5.md)
 * 第五章 游戏
 * [附录](lesson_1_3.md)
    * [参考资源](references.md)
