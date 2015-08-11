@@ -1,6 +1,6 @@
 # Summary
 
-* [Introduction](README.md)
+* [介绍](README.md)
 * [第一章 认识画布](chapter1.md)
    * [第一课 Hello world](hello_world.md)
    * [第二课 位置](lesson-1-2.md)
