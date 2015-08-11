@@ -97,18 +97,16 @@ img.onload = function () {
 把原来这张图从最左面，上面从第512像素，取512*512宽高的区域，画到画布上；画到画布的位置是从左起第0个像素，上起第0个像素，宽512像素，高512像素。有些绕口？从第0个像素？
 数字的
 
-| 0:0 | 1:0 | 2:0 | 3:0 | 4:0 | 5:0 |
+|  |  |  |  |  | |
 | -- | -- | -- | -- | -- | -- |
 | Cardinal | one | two | three | four | five |
-| 0:3 | 1:3 | 2:3 | 3:3 | 4:3 | 5:3 |
-| Ordinal | first | second | third | 4:4 | 5:4 |
-| 0:2 | 1:2 | 2:2 | 3:2 | 4:2 | 5:2 |
+|  | 1 | 2 | 3 | 4 | 5 |
+| Ordinal | first | second | third | fourth | fifth |
+| | 1st | 2nd | 3rd | 4th | 5th |
 
 
-
-Cardinal versus ordinal numbers
-Cardinal	one	two	three	four
-1	2	3	4
-Ordinal	first	second	third	fourth
-1st	2nd	3rd	4th
+Cardinal“数数”(第一个数是第三声)，即用来数东西的个数的；
+Cardinal可翻译成“序数”，是用来排序的；一般来讲，序数是从1开的；但是在一些数学及几乎所有的计算机领域，是从0开始的；
+即有个单词：zeroth，来表示第0个；它就是我们习惯上说的第一个的意思。这个zeroth是容易引起混淆，我们先知道它即可；
+参考链接：https://en.wikipedia.org/wiki/Ordinal_number_(linguistics)
 
