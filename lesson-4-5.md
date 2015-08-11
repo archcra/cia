@@ -44,4 +44,58 @@ context.clearRect(50, 50, 50, 50);
 如果不断地重复擦与画的过程，就可能产生动画。
 
 
+下面我们以简单的符号来演示一下：
+Javascript:
+```
+// 准备一块二维世界的画布
+var canvas = document.getElementById("myCanvas");
+var context = canvas.getContext("2d");
+
+// 开始向画布上画
+context.font = '64pt Arial';
+//◐ ◓ ◑ ◒
+//◴ ◷ ◶ ◵
+var charsArray = ['◐', '◓', '◑', '◒'];
+var charIndex = 0;
+
+function drawText(text) {
+    context.fillText(text, 10, 64);
+    setTimeout(drawText, 20, nextChar());
+}
+
+var getNextCharFun = function () {
+    return function () {
+        var result = charsArray[charIndex];
+        charIndex = charIndex + 1;
+        if (charIndex == 4) {
+            charIndex = 0;
+        }
+        return result;
+    }
+};
+var nextChar = getNextCharFun();
+drawText('◐');
+```
+我们会看到如下结果：
+![](Selection_005.png)
+
+上面的程序是每隔20毫秒绘下一个符号：在4个符号间反复循环画。结果是一个不动的图，当然，动的图这里也没办法展示。
+
+之所以不动，是因为没有擦除。我们把擦除加上：
+修改drawText函数如下：
+```
+function drawText(text) {
+    context.clearRect(0, 0, canvas.width, canvas.height);
+    context.fillText(text, 10, 64);
+    setTimeout(drawText, 20, nextChar());
+}
+```
+这回就应该能看到动图了，可以到这里看效果：
+
+http://jsfiddle.net/archcra/u6837w16/5/
+
+
+参考链接：
+http://stackoverflow.com/questions/2685435/cooler-ascii-spinners
+
 
