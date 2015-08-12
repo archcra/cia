@@ -32,3 +32,7 @@ http://jsfiddle.net/archcra/Lvkqj4up/5/
 将gameOver()这句话前面加上注释，如上面所示（原来是没有注释的），那么，就会得到我们期望的无敌了，试试吧：http://jsfiddle.net/archcra/Lvkqj4up/6/
 
 
+本游戏来自：Making Sprite-based Games with Canvas
+http://jlongster.com/Making-Sprite-based-Games-with-Canvas
+
+
