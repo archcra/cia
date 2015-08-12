@@ -20,7 +20,9 @@ function boxCollides(pos, size, pos2, size2) {
     pos2[0] + size2[0], pos2[1] + size2[1]);
 }
 ```
-
+学两个单词：
+collide [kəˈlaɪd] vi.碰撞
+collision []
 它主要是通过boxCollides函数来实现；它如果返回true，表示两个box有碰撞；如果返回false，则表示没有；即这个函数用来判断两个矩形是否有位置的重叠。它需要的参数是：
 pos 第一个矩形物体的位置
 size 第一个矩形物体的大小
@@ -43,7 +45,7 @@ x2 + width2 < x1 成立的话，则一定没有碰撞；即：
 四种没有碰撞的条件如果满足之一，则没有碰撞；如果都不满足，则一定有碰撞。
 
 
-
+在这里，我们简单介绍一下变量的值；
 
 
 
