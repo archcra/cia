@@ -22,7 +22,7 @@ function boxCollides(pos, size, pos2, size2) {
 ```
 学两个单词：
 collide [kəˈlaɪd] vi.碰撞
-collision []
+collision [kəˈlɪʒən] n.碰撞
 它主要是通过boxCollides函数来实现；它如果返回true，表示两个box有碰撞；如果返回false，则表示没有；即这个函数用来判断两个矩形是否有位置的重叠。它需要的参数是：
 pos 第一个矩形物体的位置
 size 第一个矩形物体的大小
@@ -45,12 +45,30 @@ x2 + width2 < x1 成立的话，则一定没有碰撞；即：
 四种没有碰撞的条件如果满足之一，则没有碰撞；如果都不满足，则一定有碰撞。
 
 
-在这里，我们简单介绍一下变量的值；
+在这里，我们简单介绍Javascript最基本的东西：基本数据类型：primitive value。
+primitive [ˈprɪmɪtɪv] a. 原始的
+这个象是原力，虽然原始，但是非常重要。
+基本数据类型有：Undefined, Null, Boolean, Number, Symbol, String 
+undefined  [ˌʌndɪˈfaɪnd] a. 未定义的
+null [nʌl] n. 空
+boolean [ˈbuliən] n. 布尔型；逻辑值
+number  [ˈnʌmbɚ] n.数字
+symbol [ˈsɪmbəl] n.符号
+string  [strɪŋ] n. 绳子，串，字符串
+
+我们看到的数字，都是Number类型；看到的这样的值：'red'，就是String-字符串型的值；
+这里我们要介绍的，是Boolean-布尔值，或称逻辑值；
 
 
 
 
 
+
+
+
+
+
+参考：http://www.ecma-international.org/ecma-262/6.0/index.html#sec-primitive-value
 
 
 
