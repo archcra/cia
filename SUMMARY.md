@@ -5,7 +5,7 @@
    * [第一节 Hello world](hello_world.md)
    * [第二节 位置](lesson-1-2.md)
    * [第三节 颜色](lesson-1-3.md)
-   * [第四课 总结](lesson-1-4.md)
+   * [第四节 总结](lesson-1-4.md)
    * [第五课 画布能画出什么？](lesson-1-5.md)
 * [第二章 基本形状](chapter2.md)
    * [第一课 直线](lesson-2-1.md)
