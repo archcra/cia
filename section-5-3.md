@@ -67,3 +67,20 @@ img.onload = function () {
 
 效果还是很不同的。
 
+
+
+参考：https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/createPattern
+
+我们再来试试游戏中的素材：http://jsfiddle.net/archcra/LLt4br6e/6/
+代码和刚才直接绘图的相同，就是图变了，效果如下：
+![](Screen Shot 2015-08-12 at 10.08.47 AM.png)
+
+它放大后是这样的(http://jsfiddle.net/archcra/LLt4br6e/7/)：
+![](Screen Shot 2015-08-12 at 10.10.24 AM.png)
+
+我们使用createPatterng来平铺它，效果是这样的(http://jsfiddle.net/archcra/LLt4br6e/8/)：
+
+![](Screen Shot 2015-08-12 at 10.11.58 AM.png)
+
+关于背景我们先介绍到这里，下一节，我们将介绍精灵：sprite。
+
