@@ -58,12 +58,81 @@ string  [strɪŋ] n. 绳子，串，字符串
 
 我们看到的数字，都是Number类型；看到的这样的值：'red'，就是String-字符串型的值；
 这里我们要介绍的，是Boolean-布尔值，或称逻辑值；
+Boolean类型的数值只有两个值：true和false。
+使用大于号(>)、小于号(<)这样的计算，可以得到Boolean值：
+HTML还是这样：
+```
+<!-- 定义一块512*512像素大小的画布 -->
+<canvas id="myCanvas" width="512" height="512"></canvas>
+```
+Javascript这样：
+```
+// 准备一块二维世界的画布
+var canvas = document.getElementById("myCanvas");
+var context = canvas.getContext("2d");
+
+// 开始向画布上画
+context.font = '32pt Arial';
+context.fillText(2 > 1, 10, 64);
+```
+这里，我们要做的，是将fillText函数的第一个参数，画到画布上；它是2>1的值，结果如下：
+![](Screen Shot 2015-08-12 at 4.17.59 PM.png)
+相应的代码位于这里：http://jsfiddle.net/archcra/Lj3mLcto/
+
+我们换一个，改成；
+```
+context.fillText(1 > 2, 10, 64);
+```
+结果是我们期望的样子：
+![](Screen Shot 2015-08-12 at 4.19.11 PM.png)
+
+布尔值主要有三种运算：与、或非，即and, or, not。在Javascript中，它们的符号是这样的：
+and  &&
+or ||
+not !
+上面的fillText修改其中的参数，容易改错。我们定义一个变量，这样在试验时，只改这个变量的值，就会减少出错的机会；代码变成这样：
+```
+// 准备一块二维世界的画布
+var canvas = document.getElementById("myCanvas");
+var context = canvas.getContext("2d");
+
+// 开始向画布上画
+var testValue = 1 > 2;
+
+context.font = '32pt Arial';
+context.fillText(testValue, 10, 64);
+```
+它的结果是false，并没有变化。不过我们再修改测试boolean运算时，只修改
+```
+var testValue = ...
+```
+这行就可以了。
+
+我们改成这样试试：
+
+```
+var testValue = true && true ;
+
+```
+这个结果是true；
+```
+var testValue = true && false ;
+```
+这个结果是false；
+```
+var testValue = true || false ;
+```
+这个是true；
+
+&& 和 || 运算符是符合交换率的，即 a && b 与 b && a的结果是一样的；
+修改成：
+```
+var testValue = !true;
+```
+这个就是取反的意思，结果是false。
 
 
-
-
-
-
+知道了这些，我们看碰撞代码中的|| 和! 就不会感觉特别困惑了。
 
 
 
