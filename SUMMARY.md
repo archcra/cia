@@ -27,6 +27,7 @@
    * [第二节 设计游戏](section-5-2.md)
    * 第三节 布局及背景
    * 第四节 精灵-sprite
+   * 第五节 碰撞
 * [附录](lesson_1_3.md)
    * [参考资源](references.md)
 * [后语](summary.md)
