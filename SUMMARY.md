@@ -26,7 +26,7 @@
    * [第一节 玩游戏](section-5-1.md)
    * [第二节 设计游戏](section-5-2.md)
    * [第三节 布局及背景](section-5-3.md)
-   * 第四节 精灵-sprite
+   * [第四节 精灵-sprite](section-5-4.md)
    * 第五节 碰撞
    * [第六节 无敌](section-5-6.md)
 * [附录](lesson_1_3.md)
