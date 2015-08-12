@@ -8,7 +8,7 @@
    * [第四节 总结](lesson-1-4.md)
    * [第五节 画布能画出什么？](lesson-1-5.md)
 * [第二章 基本形状](chapter2.md)
-   * [第一课 直线](lesson-2-1.md)
+   * [第一节 直线](lesson-2-1.md)
    * [第二课 矩形](lesson-2-2.md)
    * [第三课 圆](lesson-2-3.md)
 * [第三章 图片](lesson-3-1.md)
