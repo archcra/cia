@@ -13,7 +13,7 @@
    * [第三节 圆](lesson-2-3.md)
 * [第三章 图片](lesson-3-1.md)
    * [第一节 画图片](lesson-3-1.md)
-   * [第二课 缩放](lesson-3-2.md)
+   * [第二节 缩放](lesson-3-2.md)
    * [第三节 剪切](lesson-3-3.md)
    * [第四课 特效](lesson-3-4.md)
 * 第四章 动画
