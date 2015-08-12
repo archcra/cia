@@ -11,7 +11,6 @@ function collides(x, y, r, b, x2, y2, r2, b2) {
 ```
 上面将collides函数的原来的判断给注释掉了，即它们不会被执行。而直接加了一个return false;
 
-collide [kəˈlaɪd] vi.碰撞
 false [fɔ:ls] a. 假的
 
 我们试一下效果：
