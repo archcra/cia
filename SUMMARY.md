@@ -24,6 +24,7 @@
    * [第五课 动画的原理](lesson-4-5.md)
 * 第五章 游戏
    * [第一节 玩游戏](section-5-1.md)
+   * 第二节 设计游戏
 * [附录](lesson_1_3.md)
    * [参考资源](references.md)
 * [后语](summary.md)
