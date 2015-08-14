@@ -23,6 +23,9 @@ http://jsfiddle.net/archcra/agtdu6ws/2/
 http://jsfiddle.net/archcra/x5jrLa7x/embedded/result/
 
 
+以上的示例虽然效果很好，但实际上有些不合适。因为这个例子不是使用Canvas制作的。之所以放在这里，是因为Canvas理论上能做到同样的效果。具体原因我们会在第四章第五节描述。
+
+
 游戏？当然。下面是个比较简单的射击游戏：
 
 ![](Screen Shot 2015-08-09 at 1.42.45 PM.png)
