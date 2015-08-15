@@ -28,7 +28,7 @@ chrome [kroʊm] n.谷歌浏览器； 铬
  ![](Screen Shot 2015-08-08 at 7.25.49 PM.png)
 
 
-我们就这样完成了Hello world? 如果是讲HTML语言，当然到这里就可以下课了。不过我们对待是Canvas，还是要有一些工作要做的。即，我们要使用的语言是Javascript，是界面开发三剑客之一。刚才的图上，就出现了完整的三剑客：HTML, CSS, Javascript。
+我们就这样完成了Hello world? 如果是在学习HTML语言，当然到这里就可以下课了。不过我们对待是Canvas，还是要有一些工作要做的。即，我们要使用的主要语言是Javascript，是界面开发三剑客之一。刚才的图上，就出现了完整的三剑客：HTML, CSS, Javascript。
 
 这些概念有些多，我们此时知道它们是三剑客就行，下面开始使用三剑客中的两个：
 在HTML中输入(请拷贝、粘贴-copy&paste)：
