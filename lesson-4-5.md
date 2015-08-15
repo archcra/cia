@@ -112,3 +112,5 @@ http://jsfiddle.net/codepo8/g9898/5/light/
 
 
 而CSS制作的动画，也可以由画布来实现；这就是为什么在第一章时，为什么我们给了一个CSS的示例，来说明画布能做的事情。
+
+3dcone 示例来自于：http://christianheilmann.com/2011/09/05/animating-with-canvas-and-creating-css3-animations-with-javascript/
