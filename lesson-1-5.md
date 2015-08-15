@@ -37,4 +37,6 @@ http://jsfiddle.net/archcra/x5jrLa7x/embedded/result/
 
 这个游戏的作者有很详细的说明：http://jlongster.com/Making-Sprite-based-Games-with-Canvas
 
+本书第五章将会对这个游戏的制作，做一些简要的介绍。
+
 
