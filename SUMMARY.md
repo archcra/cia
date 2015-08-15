@@ -16,7 +16,7 @@
    * [第二节 缩放](lesson-3-2.md)
    * [第三节 剪切](lesson-3-3.md)
    * [第四节 特效](lesson-3-4.md)
-* 第四章 动画
+* [第四章 动画](chapter4.md)
    * [第一节 匀速运动](lesson-4-1.md)
    * [第二节 加速度](lesson-4-2.md)
    * [第三节 往返运动](lesson-4-3.md)
