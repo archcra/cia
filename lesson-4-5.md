@@ -98,4 +98,17 @@ http://jsfiddle.net/archcra/u6837w16/5/
 参考链接：
 http://stackoverflow.com/questions/2685435/cooler-ascii-spinners
 
+我们前面讲的动画，如匀速运动、往返运动等，都是直接修改画的物体的位置；还有一种动画方法，是移动画布。虽然原理一样，但是有时候用起来却很方便。
 
+可以到这里来看动画效果：https://jsfiddle.net/archcra/s0dnh49x/
+
+它的静态图是这样的：
+![](cone3d.png)
+
+这里不会动，看动画需要到上面的链接上去看。它就是由移动画布产生的结果。
+
+当然，这个动画也可以使用CSS来实现。
+http://jsfiddle.net/codepo8/g9898/5/light/
+
+
+而CSS制作的动画，也可以由画布来实现；这就是为什么在第一章时，为什么我们给了一个CSS的示例，来说明画布能做的事情。
