@@ -82,7 +82,7 @@ context.fillText('Hello World!', 10, 64);
 ```
 ![](Screen Shot 2015-08-08 at 9.05.56 PM.png)
 
-这回差不多了。还可以再大些么？
+这回差不多了，还可以再大些么？
 
 
 
