@@ -1,4 +1,3 @@
-# 第一课 Hello world
 
 学习编程一般都是从Hello world开始，我们也不例外。
 
